@@ -1,46 +1,9 @@
 
 <html>
 
-<style>
-
-  a {
-    color: orange;
-  }
-
-</style>
-
-<script src="https://akad.my.site.com/anmeldung/lightning/lightning.out.js"></script>
-<div>testing2</div>
-<div data-lightning-out="true"></div>
-
-  <script>
-
-    const appName = 'c:schedulerEmbeddedFlowApp';
-    const componentName = 'c:schedulerEmbeddedFlow';
-    const lightningEndpoint = 'https://akad.my.site.com';
-    const targetElement = document.querySelector("[data-lightning-out]");
-    const componentAttributes = {
-
-    };
-    console.log('before lightning use:');
-
-    $Lightning.use(
-            appName,
-            function (){
-              $Lightning.createComponent(
-                      componentName,
-                      componentAttributes,
-                      targetElement,
-                      function (cmp){
-                        console.log('lightning component created');
-                      }
-              );
-            },
-            lightningEndpoint
-    );
-
-
-  </script>
+<div>
+  Testing HTML
+</div>
 
 
 </html>
