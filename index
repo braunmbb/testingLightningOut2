@@ -22,6 +22,7 @@
     const componentAttributes = {
 
     };
+    console.log('before lightning use:');
 
     $Lightning.use(
             appName,
